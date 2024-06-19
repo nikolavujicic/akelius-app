@@ -1,0 +1,6 @@
+<ng-container *ngIf="slides.length > 0">
+  <app-slide
+    [template]="slides[slideIndex].template"
+    [templateId]="slides[slideIndex].order">
+  </app-slide>
+</ng-container>

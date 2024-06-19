@@ -1,0 +1,44 @@
+{
+  "levels": [
+    {
+      "id": 0,
+      "languageCode": "en",
+      "title": "A0"
+    },
+    {
+      "id": 1,
+      "languageCode": "en",
+      "title": "A1"
+    },
+    {
+      "id": 2,
+      "languageCode": "en",
+      "title": "A1.1"
+    },
+    {
+      "id": 3,
+      "languageCode": "en",
+      "title": "A2"
+    },
+    {
+      "id": 4,
+      "languageCode": "en",
+      "title": "B0"
+    },
+    {
+      "id": 5,
+      "languageCode": "en",
+      "title": "B1"
+    },
+    {
+      "id": 6,
+      "languageCode": "en",
+      "title": "B1.1"
+    },
+    {
+      "id": 7,
+      "languageCode": "en",
+      "title": "B2"
+    }
+  ]
+}

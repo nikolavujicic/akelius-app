@@ -1,0 +1,14 @@
+<ng-container *ngIf="template && templateId !== undefined">
+  <app-image-title-sentence
+    *ngIf="template === 'IMAGE_TITLE_SENTENCE'"
+    [templateId]="templateId"
+  ></app-image-title-sentence>
+  <app-letter-presentation
+    *ngIf="template === 'LETTER_PRESENTATION'"
+    [templateId]="templateId"
+  ></app-letter-presentation>
+  <app-multiple-choice-text
+    *ngIf="template === 'MULTIPLE_CHOICE_TEXT'"
+    [templateId]="templateId"
+  ></app-multiple-choice-text>
+</ng-container>

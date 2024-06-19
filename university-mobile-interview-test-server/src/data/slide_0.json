@@ -1,0 +1,15 @@
+{
+  "id": 0,
+  "template": "IMAGE_TITLE_SENTENCE",
+  "text": "potato",
+  "images": [
+    {
+      "url": "https://p-media-static-language.azureedge.net/images/37452-ynlojhbcbg/previews/screen-6576.jpg"
+    }
+  ],
+  "imagesCount": 1,
+  "audioUrl": "https://p-media-static-language.azureedge.net/audios/1029-tnykarkvtf/file.mp3",
+  "backgroundColor": "#ffffff",
+  "isAnimated": false,
+  "requiresAnswer": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "template": "LETTER_PRESENTATION",
+  "text": "p",
+  "isAnimated": true,
+  "audioUrl": "https://p-media-static-language.azureedge.net/audios/18873-upqyjfhqwj/file.mp3",
+  "backgroundColor": "#ffffff",
+  "requiresAnswer": false
+}

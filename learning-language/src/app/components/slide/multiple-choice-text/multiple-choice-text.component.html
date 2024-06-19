@@ -1,0 +1,24 @@
+<ion-grid>
+  <ion-row>
+    <ion-col size="11" class="text-col">
+      <div class="vertical-align-container">
+        <p>MULTIPLE CHOICE TEXT</p>
+        <ion-radio-group
+          [(ngModel)]="selectedOption"
+          class="radio-group-container"
+        >
+          <div *ngFor="let option of options" class="radio-item">
+            <ion-radio slot="start" [value]="option"></ion-radio>
+            <ion-label>{{ option?.text }}</ion-label>
+          </div>
+        </ion-radio-group>
+      </div>
+    </ion-col>
+    <ion-col size="1" class="buttons-col">
+      <app-control
+        [audioSrc]="slideData?.audioUrl ?? ''"
+        [btnDisabled]="!selectedOption?.expectedSelection"
+      ></app-control>
+    </ion-col>
+  </ion-row>
+</ion-grid>

@@ -1,0 +1,19 @@
+.custom-toast .toast-content{
+    z-index: 10000; /* Adjust the z-index value as needed */
+    border: 30px solid red;
+    color: green;
+  }
+
+  .toast-container{
+    border: 30px solid red;
+    color: green;
+  }
+
+  .md .toast-wrapper {
+    transform: translateY(-56px) !important;
+    border: 20px solid red;
+}
+
+.toasts-bottom{
+    border: 1px solid red;
+}

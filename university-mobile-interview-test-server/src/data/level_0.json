@@ -1,0 +1,21 @@
+{
+  "id": 0,
+  "title": "A0",
+  "steps": [
+    {
+      "id": 0,
+      "title": "1",
+      "slideshowId": 1
+    },
+    {
+      "id": 1,
+      "title": "2",
+      "slideshowId": 3
+    },
+    {
+      "id": 2,
+      "title": "3",
+      "slideshowId": 4
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+.text-col {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: scroll;
+  height: fit-content;
+}
+
+.text-col p {
+  text-align: justify;
+  height: 100%;
+  padding: 5px;
+}
+
+.buttons-col {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 15px;
+  border-left: 1px solid #b0b0b0;
+}
+
+ion-grid {
+  height: 100vh;
+}
+
+ion-row {
+  height: 100%;
+  overflow: hidden;
+}
+
+ion-col {
+  color: #000000;
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+}

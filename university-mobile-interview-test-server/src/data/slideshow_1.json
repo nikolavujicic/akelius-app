@@ -1,0 +1,20 @@
+{
+  "id": 1,
+  "slides": [
+    {
+      "id": 0,
+      "order": 1,
+      "template": "LETTER_PRESENTATION"
+    },
+    {
+      "id": 1,
+      "order": 0,
+      "template": "IMAGE_TITLE_SENTENCE"
+    },
+    {
+      "id": 2,
+      "order": 2,
+      "template": "MULTIPLE_CHOICE_TEXT"
+    }
+  ]
+}

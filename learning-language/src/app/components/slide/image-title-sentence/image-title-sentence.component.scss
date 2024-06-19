@@ -1,0 +1,15 @@
+@import "../slide.component.scss";
+
+ion-content {
+  --background-color: #ffffff;
+}
+
+.image-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-col img {
+  border-radius: 8px;
+}
